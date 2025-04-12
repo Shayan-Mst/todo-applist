@@ -23,10 +23,10 @@ const Menu: React.FC = () => {
       className="left-0"
     >
       <header className="h-full flex flex-col">
-        <h1 className="font-bold uppercase text-center mt-8 text-lg tracking-wide hidden xl:block">
+        <h1 className="font-bold uppercase text-center m-8 text-lg tracking-wide hidden xl:block">
           To-do app
         </h1>
-        <BtnAddTask className="my-8 mx-4" />
+        
         <NavLinks classActive={classLinkActive} />
         <Directories classActive={classLinkActive} />
       </header>
