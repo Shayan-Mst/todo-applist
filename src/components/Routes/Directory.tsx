@@ -21,7 +21,7 @@ const Directory: React.FC = () => {
   >([]);
 
   useEffect(() => {
-    const dirExists = directories.includes(params.dir);
+    const dirExists = directories.includes(params.dir as string);
     if (!dirExists) {
       navigate("/");
     }
