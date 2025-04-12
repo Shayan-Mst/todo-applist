@@ -34,7 +34,7 @@ const Notification: React.FC = () => {
         className={`relative ${tasksToShow.length ? classHasNotification : ""}`}
         title="see notifications"
       >
-        <IconBell className="fill-violet-600 w-5 h-5 md:w-6 md:h-6 dark:fill-violet-800" />
+        <IconBell className="fill-sky w-5 h-5 md:w-6 md:h-6" />
       </button>
       {notificationIsVisible && (
         <div className="absolute bg-slate-100 dark:bg-slate-800 top-full rounded-md right-0 p-3 w-52 border border-slate-300 dark:border-slate-700">
@@ -48,7 +48,7 @@ const Notification: React.FC = () => {
                   <li key={task.id} className="py-1">
                     <Link
                       to={`/task/${task.id}`}
-                      className="hover:text-slate-200 transition"
+                      className="hover:text-sky transition"
                     >
                       {task.title}
                     </Link>
