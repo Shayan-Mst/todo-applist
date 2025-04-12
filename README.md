@@ -1,3 +1,5 @@
+![Untitled](https://github.com/user-attachments/assets/c5a492fa-b9b1-4035-8012-064243cf3644)
+
 # 📝 Task Organizer App
 
 A React-based task management application with support for task categorization, filtering, and local data persistence.
