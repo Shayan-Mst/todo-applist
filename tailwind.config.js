@@ -7,6 +7,7 @@ module.exports = {
         slate: {
           800: "#141E33",
         },
+        sky:"#2185D5"
       },
       screens: {
         "2xl": "1736px",
