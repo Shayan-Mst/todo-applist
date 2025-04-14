@@ -64,7 +64,7 @@ This project was mainly developed to practice the following technologies:
 ## ▶️ How to Run Locally
 
 ```bash
-git clone https://github.com/aridsm/tasks-app.git
-cd tasks-app
+git clone https://github.com/Shayan-Mst/todo-applist.git
+cd todo-applist
 npm install
 npm start
